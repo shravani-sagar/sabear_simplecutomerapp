@@ -13,7 +13,7 @@ pipeline {
         // Where your Nexus is running
         NEXUS_URL = "13.221.78.204:8081/"
         // Repository where we will upload the artifact
-        NEXUS_REPOSITORY = "sonarqube"
+        NEXUS_REPOSITORY = "maven-snapshot"
         // Jenkins credential id to authenticate to Nexus OSS
         NEXUS_CREDENTIAL_ID = "nexus-creds"
 	SCANNER_HOME = tool 'sonar-scanner'
